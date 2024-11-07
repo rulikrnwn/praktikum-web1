@@ -1,0 +1,9 @@
+.container div {
+    background: peachpuff;
+    border: 5px solid brown;
+    height: 100px;
+    flex: 1;
+}
+.container{
+    display: flex;
+}

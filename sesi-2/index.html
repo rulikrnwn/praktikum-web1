@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2</title>
+    <style>
+        *{
+            color: blue;
+            border: 2px solid red;
+        }
+        h1 {
+            color: green;
+        }
+        .text-merah,#text-kuning{
+            font-size: 20px;
+            text-align: center;
+            background-color: black;
+        }
+        .text-merah {
+            color: red;
+        }
+        #text-kuning {
+            color: yellow;
+        }
+        div p {
+            color: red;
+        }
+        div > div > p{
+            font-weight: bold;
+        }
+        .subbagian {
+            font-size: 30px;
+        }
+        .subbagian.header{
+            color: blueviolet;
+        }
+        .subbagian#text{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>pemograman web 1</h1>
+    <p class="text-merah">Praktik pemograman web 1 sesi 2 akan membahas tentang pengguna CSS</p>
+    <p id="text-kuning">CSS atau cascading style sheets adalah sebuah bahasa yang digunakan untuk mengatur tampilan suatu halaman</p>
+    
+    <div>
+        <p>ini paragraf pertama</p>
+        <div>
+            <p>ini paragraf kedua</p>
+        </div>
+    </div>
+
+    <div class="subbagian header"> Bagian header</div>
+    <p class="subbagian" id="text">ini adalah paragraf</p>
+</body>
+</html>
